@@ -1,4 +1,4 @@
-# EAST
+# WSDM2023: EAST: Efficient Adaptive Spatial-Temporal Transformer for Urban Traffic Flow Prediction
     # data
         # PEMS0X
             # PEMS0X.npz
