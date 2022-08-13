@@ -22,9 +22,9 @@
         # command :
             # python3 gen_traffic_data.py
 
-    # step 2 : run train.py for EAST or EAST*
+    # step 2 : run train.py for EAST
         # command :
-            # python3 train.py --dataset PEMS04 --K 4 --max_epoch 1000 --batch_size 32 --node_num 307 --learning_rate 0.001 --patience 20 --emb_dim 64 --encoder_layer 1 --decoder_layer 1
+            # python3 train.py --dataset PEMS08 --K 4 --max_epoch 1000 --batch_size 32 --node_num 170 --learning_rate 0.001 --patience 20 --emb_dim 128 --encoder_layer 1 --decoder_layer 1
 
     # or just run the run.sh after step 1
         # command :
