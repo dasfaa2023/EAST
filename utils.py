@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 
-
 # log string
 def log_string(log, string):
     log.write(string + '\n')
