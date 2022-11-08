@@ -7,6 +7,7 @@ from math import sqrt
 from lib.masking import TriangularCausalMask
 from lib.masking import ProbMask
 
+
 '''
     Note that we split up different attention mechanisms for ablation study.
     The Sparse attention correspond to the dominant attention in the latest version paper. 
