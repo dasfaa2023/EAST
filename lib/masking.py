@@ -3,6 +3,7 @@
     TriangularCausalMask() for full attention mask
     ProbMask() for sparse attention mask
 '''
+
 import torch
 
 class TriangularCausalMask():
