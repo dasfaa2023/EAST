@@ -31,7 +31,6 @@ parser.add_argument('--decoder_layer', type = int, default = 3, help = 'Decoder 
 parser.add_argument('--spatial_c', type = int, default=5, help = 'Spatial sampling factor [min area: 5-25(PEMS08), max area: 5-125(PEMS07)]')
 parser.add_argument('--temporal_c', type = int, default=2, help = 'Temporal sampling factor [1,2,3,4,5]')
 
-
 args = parser.parse_args()
 log_time = time.time()
 LOG_FILE = args.path+'experiments/'+args.dataset+'/EAST-log'+args.dataset+'-N_'+str(args.node_num)+'-el_'+str(args.encoder_layer)+'-dl_'+str(args.decoder_layer)+'-sc_'+str(args.spatial_c)+'-tc_'+str(args.temporal_c)+'-bs_'+str(args.batch_size)+'-ed_'+str(args.emb_dim)+'-K_'+str(args.K)+'-lr_'+str(args.learning_rate)+'-P_'+str(args.P)+'-Q_'+str(args.Q)+'-d_'+str(args.d)+'-time_'+str(log_time)+'.log'
